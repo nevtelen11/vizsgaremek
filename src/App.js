@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+import datas from './data.json'
 import './App.css';
+import  Button  from './Components/Button';
+import { useState } from "react";
+
+
+
+
 
 function App() {
+
+  const[buttonPopup, setButtonPopup] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Sportok</h1>
+      {datas && datas.map(data =>{
+        return(
+         <div className="container">
+          <div className="row ">
+            <div className="card col-lg-1" key={data.id}>
+              <img className="image" src={data.images}></img>
+              <br></br>
+              <div className="name">
+                <main>
+                {data.name}
+                
+                <br></br>
+                  <button onClick={() => setButtonPopup(true)}>Bovebben</button>
+                </main>  
+                  <Button trigger={buttonPopup} setTrigger={setButtonPopup}>
+                    <h3>erfuigwe</h3>
+                  </Button>  
+              
+              </div>
+              
+              </div>
+            </div>
+          </div>
+         
+        )
+      })}
     </div>
   );
 }

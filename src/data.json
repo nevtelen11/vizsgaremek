@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Kerékpározás",
+        "images":null,
+        "about" : "Közös kerékpártúrák szervezésére ad lehetőséget."
+    },
+    {
+        "id": 2,
+        "name": "Tenisz",
+        "images":"https://www.pexels.com/hu-hu/foto/ferfi-sport-stilus-jatek-5730288/"
+    },
+    {
+        "id": 3,
+        "name": "Futás",
+        "images":null
+    },
+    {
+        "id": 4,
+        "name": "Túrázás",
+        "images":null
+    },
+    {
+        "id": 5,
+        "name": "Kosárlabda",
+        "images":null
+    },
+    {
+        "id": 6,
+        "name": "E-sport",
+        "images":null
+    },
+    {
+        "id": 7,
+        "name": "Golf",
+        "images":null
+    },
+    {
+        "id": 8,
+        "name": "Futball",
+        "images":null
+    },
+    {
+        "id": 9,
+        "name": "Úszás",
+        "images":null
+    },
+    {
+        "id": 10,
+        "name": "Street Workout",
+        "images":null
+    },
+    {
+        "id": 11,
+        "name": "Tollaslabda",
+        "images":null
+    },
+    {
+        "id": 12,
+        "name": "Billiárd",
+        "images":null
+    },
+    {
+        "id": 13,
+        "name": "Darts",
+        "images":null
+    },
+    {
+        "id": 14,
+        "name": "Yoga",
+        "images":null
+    },
+    {
+        "id": 15,
+        "name": "Falmászás",
+        "images":null
+    },
+    {
+        "id": 16,
+        "name": "Bowling",
+        "images":null
+    },
+    {
+        "id": 17,
+        "name": "Konditermi edzés",
+        "images":null
+    },
+    {
+        "id": 18,
+        "name": "Squash",
+        "images":null
+    }
+]
